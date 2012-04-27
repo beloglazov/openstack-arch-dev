@@ -2,13 +2,19 @@ This project is inteded to provide shell scripts for setting up a development en
 
 * Basically, you just need to run the script:
 
-    ./setup.sh
+```
+./setup.sh
+```
 
 * Clone the Nova repository to the directory you want:
 
-    git clone https://github.com/openstack/nova.git
+```
+git clone https://github.com/openstack/nova.git
+```
 
 * Try running the unit tests to make sure everything works (it will take a while during the first run to download and install dependencies):
 
-    cd nova
-    ./run_tests.sh
+```
+cd nova
+./run_tests.sh
+```
